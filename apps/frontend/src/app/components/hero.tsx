@@ -19,6 +19,7 @@ export function Hero() {
       const delay = Math.random() * 5;
       return { left, top, dx, duration, delay };
     });
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setParticles(p);
   }, []);
 

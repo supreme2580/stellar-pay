@@ -106,7 +106,7 @@ export function Testimonials() {
 
                 {/* Quote text */}
                 <p className="text-sm sm:text-base text-neutral-300 leading-relaxed mb-8">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </p>
 
                 {/* Author info */}

@@ -29,7 +29,7 @@ export function Footer() {
           >
             <div className="text-sm font-medium mb-4 text-neutral-400">Product</div>
             <ul className="space-y-3 text-sm text-neutral-500">
-              {["Payments", "On-ramps", "Subscriptions", "Escrow", "Pricing"].map((item, index) => (
+              {["Payments", "On-ramps", "Subscriptions", "Escrow", "Pricing"].map((item) => (
                 <motion.li 
                   key={item}
                   whileHover={{ x: 4, color: '#fff', transition: { duration: 0.2 } }}
@@ -49,7 +49,7 @@ export function Footer() {
           >
             <div className="text-sm font-medium mb-4 text-neutral-400">Developers</div>
             <ul className="space-y-3 text-sm text-neutral-500">
-              {["Documentation", "API Reference", "SDKs", "GitHub", "Status"].map((item, index) => (
+              {["Documentation", "API Reference", "SDKs", "GitHub", "Status"].map((item) => (
                 <motion.li 
                   key={item}
                   whileHover={{ x: 4, color: '#fff', transition: { duration: 0.2 } }}
@@ -69,7 +69,7 @@ export function Footer() {
           >
             <div className="text-sm font-medium mb-4 text-neutral-400">Company</div>
             <ul className="space-y-3 text-sm text-neutral-500">
-              {["About", "Security", "Compliance", "Contact", "Careers"].map((item, index) => (
+              {["About", "Security", "Compliance", "Contact", "Careers"].map((item) => (
                 <motion.li 
                   key={item}
                   whileHover={{ x: 4, color: '#fff', transition: { duration: 0.2 } }}

@@ -146,7 +146,7 @@ export function Developer() {
                     viewport={{ once: true }}
                     transition={{ delay: 0.5 }}
                   >
-                    // Initialize StellarPay client
+                    {"// Initialize StellarPay client"}
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -159,7 +159,7 @@ export function Developer() {
                     <span className="text-neutral-500">=</span>{" "}
                     <span className="text-blue-400">require</span>
                     <span className="text-neutral-500">(</span>
-                    <span className="text-green-400">'@stellarpay/node'</span>
+                    <span className="text-green-400">&apos;@stellarpay/node&apos;</span>
                     <span className="text-neutral-500">);</span>
                   </motion.div>
                   <div className="h-4" />
@@ -204,7 +204,7 @@ export function Developer() {
                     viewport={{ once: true }}
                     transition={{ delay: 1.0 }}
                   >
-                    // Create a payment
+                    {"// Create a payment"}
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -241,7 +241,7 @@ export function Developer() {
                   >
                     <span className="text-cyan-400">currency</span>
                     <span className="text-neutral-500">:</span>{" "}
-                    <span className="text-green-400">'USD'</span>
+                    <span className="text-green-400">&apos;USD&apos;</span>
                     <span className="text-neutral-500">,</span>
                   </motion.div>
                   <motion.div 
@@ -253,7 +253,7 @@ export function Developer() {
                   >
                     <span className="text-cyan-400">destination</span>
                     <span className="text-neutral-500">:</span>{" "}
-                    <span className="text-green-400">'stellar:GXXX...'</span>
+                    <span className="text-green-400">&apos;stellar:GXXX...&apos;</span>
                     <span className="text-neutral-500">,</span>
                   </motion.div>
                   <motion.div
